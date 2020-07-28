@@ -1,0 +1,46 @@
+.wapper
+  = render "tweets/header"
+  .points-contents
+    = link_to "" do
+      .points-contents__maru1
+        %span.image
+          = image_tag src="/assets/study.jpg", size: "110x110", class: "points-contents__maru1__study"
+        .h4 勉強
+        .h5 貯める
+    = link_to "" do
+      .points-contents__maru2
+        %span.image
+          = image_tag src="/assets/run.jpg", size: "110x110", class: "points-contents__maru2__run"
+        .h4 運動
+        .h5 貯める
+    = link_to "" do
+      .points-contents__maru3
+        %span.image
+        = image_tag src="/assets/cook.jpg", size: "110x110", class: "points-contents__maru3__cook"
+        .h4 家事、手伝い
+        .h5 貯める
+    = link_to "" do
+      .points-contents__maru4
+        %span.image
+        = image_tag src="/assets/doryoku.png", size: "110x110", class: "points-contents__maru4__doryoku"
+        .h4 その他,努力
+        .h5 貯める
+    = link_to "" do
+      .points-contents__maru5
+        %span.image
+        = image_tag src="/assets/game.jpg", size: "110x110", class: "points-contents__maru5__game"
+        .h4 ゲーム、漫画、娯楽
+        .h5 使う
+    = link_to "" do
+      .points-contents__maru6
+        %span.image
+        = image_tag src="/assets/asobu.jpg", size: "110x110", class: "points-contents__maru6__asobu"
+        .h4 遊ぶ、買い物、飲み
+        .h5 使う
+    = link_to "" do
+      .points-contents__maru7
+        %span.image
+        = image_tag src="/assets/down.jpg", size: "110x110", class: "points-contents__maru7__down"
+        .h4 ３日何もしない
+        .h5 使う
+  = render "tweets/footer"

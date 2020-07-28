@@ -1,0 +1,13 @@
+.wapper
+  = render "tweets/header"
+  .new-contents
+    .new-contents__around
+      = form_with(model: @tweet, local: true, class: "new-contents__around__form") do |form|
+        %h3投稿する
+        = form.text_field :name,placeholder: "Nickname", class: "new-contents__around__form--textarea"
+        = form.text_field :image, placeholder: "Image Url", class: "new-contents__around__form--textarea"
+        = form.text_area :text, placeholder: "今日の頑張り", rows: "10", class: "new-contents__around__form--textarea"
+        = form.submit "SEND", class: "send"
+    .ccc
+      ME LOCK
+  = render "tweets/footer"

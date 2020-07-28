@@ -1,0 +1,130 @@
+.points-contents{
+  display: flex;
+  height: calc(100vh - 14vh);
+  flex-wrap: wrap;
+  overflow: scroll;
+  background-color: black;
+  &__maru1{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 10px 0 black;
+    &__study{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  &__maru2{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 10px 0 black;
+    &__run{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  &__maru3{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 10px 0 black;
+    &__cook{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  &__maru4{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: purple;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 10px 0 black;
+    &__doryoku{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  &__maru5{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #333333;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 10px 0 black;
+    &__game{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  &__maru6{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #222222;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 10px 0 black;
+    &__asobu{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  &__maru7{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    margin: 30px;
+    box-shadow: 20px 0 20px 10px black;
+    &__down{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform : translate(-50%,-50%);
+      transform : translate(-50%,-50%);
+    }
+  }
+  .h4{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform : translate(-50%,-50%);
+    transform : translate(-50%,-50%);
+    color: white;
+  }
+  .h5{
+    color: white;
+  }
+}
