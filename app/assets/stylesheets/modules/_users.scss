@@ -1,4 +1,33 @@
-.edit-contents{
+.main-contents{
   height: calc(100vh - 14vh);
-  background-color: black;
+  display: flex;
+  overflow: scroll;
+  .side-contents{
+    width: 30%;
+    background-color: gray;
+    height: 100%;
+  }
+  .me-contents{
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &__image{
+      background-color: white;
+      height: 130px;
+      width: 130px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+    &__name{
+      font-size: 50px;
+      color: white;
+      border-bottom: 1px solid red;
+    }
+    &__text{
+      color: white;
+    }
+  }
 }

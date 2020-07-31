@@ -2,9 +2,9 @@
   .fotter__icon
     = link_to "" do
       = icon('fas', 'home', class: "fotter__icon__home")
-    = link_to "" do
+    = link_to "#" do
       = icon('fas', 'search')
     = link_to points_path do
       = icon('fab', 'product-hunt')
-    = link_to "" do
+    = link_to user_path(current_user) do
       = icon('fas', 'users')

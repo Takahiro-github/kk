@@ -1,4 +1,11 @@
 .wapper
   = render "tweets/header"
-  .edit-contents
+  .main-contents
+    .side-contents
+    .me-contents
+      .me-contents__image
+      .me-contents__name
+        = current_user.nickname
+      .me-contents__text
+        = current_user.text
   = render "tweets/footer"
